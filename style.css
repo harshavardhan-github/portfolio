@@ -477,6 +477,29 @@ ul { list-style: none; }
     margin-top: 0.5rem;
 }
 
+/* Work Experience Details List */
+.experience-details {
+    list-style: none;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+.experience-details li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.2rem;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.experience-details li::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 0.7rem;
+    top: 0.2rem;
+}
+
 /* === Projects Section === */
 .projects-grid {
     display: grid;
